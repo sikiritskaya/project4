@@ -175,8 +175,7 @@ header nav{
 	line-height: 20px;
 	text-align: center;
 }
-.services div img{
-	display: inline-block;
+.services div .symbol{
 	text-align: center;
 }
 
