@@ -355,6 +355,15 @@ footer{
 		padding-left: 12px;
 		padding-right: 12px;
 	} */
+    .works-container{
+        .latest{
+            .latest-works{
+                width: 100%;
+                justify-content: space-around;
+                padding:0;
+            }
+        }
+    }
     .offer{
         .ask{
             img{
@@ -367,4 +376,23 @@ footer{
 	.about-us .about{
 		padding-bottom: 40px;
 	}
+}
+@media screen and (max-width: 575.98px){
+    .works-container{
+        .latest{
+            padding-top: 10%;
+            .latest-works{
+                justify-content: space-around;
+                flex-wrap: wrap;
+                li{
+                    width: 50%;
+                    padding-bottom: 20px;
+                }
+                
+            }
+        }
+    }
+    .works{
+        margin-top: 10%;
+    }
 }
