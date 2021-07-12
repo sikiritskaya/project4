@@ -385,6 +385,11 @@ footer .copyright {
 		padding-left: 12px;
 		padding-right: 12px;
 	} */
+  .offer .ask img {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
 }
 
 @media screen and (max-width: 767.98px) {
